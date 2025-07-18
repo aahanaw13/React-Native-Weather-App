@@ -93,9 +93,12 @@ const WeatherApp = ()=>{
   return(
     <SafeAreaView style={styles.container}>
       <StatusBar barStyle="light-content"/>
-      <SafeAreaView/>
-  )
+      <LinearGradient
+      colors={}weather
+      </SafeAreaView>
+  );
 }
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
